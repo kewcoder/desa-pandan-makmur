@@ -1,0 +1,394 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary: #05A2FA;
+  --secondary: #FCFF54
+;
+}
+
+section {
+  min-height: 700px;
+  padding-top: 30px;
+}
+
+.header {
+  padding: 30px 10vw;
+  width: 100%;
+  height: 700px;
+}
+
+@media (max-width: 780px) {
+  .header {
+    height: 700px;
+  }
+}
+
+.header .logo {
+  float: left;
+  color: white;
+  font-size: 20px;
+}
+
+.header nav {
+  float: right;
+}
+
+.header nav a {
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+@media (max-width: 780px) {
+  .header nav {
+    display: none;
+  }
+}
+
+#hero {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 550px;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 780px) {
+  #hero {
+    min-height: 700px;
+  }
+}
+
+#hero .hero-title {
+  font-size: 42px;
+  width: 50%;
+}
+
+@media (max-width: 780px) {
+  #hero .hero-title {
+    width: 100%;
+    font-size: 36px;
+  }
+}
+
+#hero .hero-title .selamat {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#hero .hero-title p {
+  font-size: 16px;
+}
+
+#hero .video {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 780px) {
+  #hero .video {
+    width: 100%;
+  }
+}
+
+#hero .video iframe {
+  margin-left: auto;
+  background: white;
+  border-radius: 15px;
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width: 780px) {
+  #hero .video iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+.loading-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 700px;
+  background: white;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 10000;
+}
+
+.loading-wrapper .loading {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f03355;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  -webkit-animation: sh1 2s infinite cubic-bezier(0.3, 1, 0, 1);
+          animation: sh1 2s infinite cubic-bezier(0.3, 1, 0, 1);
+}
+
+.hidden {
+  display: none;
+}
+
+@-webkit-keyframes sh1 {
+  33% {
+    border-radius: 0;
+    background: #514b82;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  66% {
+    border-radius: 0;
+    background: #ffa516;
+    -webkit-clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%);
+            clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes sh1 {
+  33% {
+    border-radius: 0;
+    background: #514b82;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  66% {
+    border-radius: 0;
+    background: #ffa516;
+    -webkit-clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%);
+            clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%);
+  }
+}
+
+#datadesa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px 10vw;
+}
+
+#datadesa .title {
+  width: 100%;
+  text-align: center;
+}
+
+#datadesa .struktur {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#datadesa .struktur .download {
+  margin-left: auto;
+}
+
+@media (max-width: 780px) {
+  #datadesa .struktur .download {
+    margin-left: 0;
+  }
+}
+
+#datadesa .struktur .download a {
+  text-decoration: none;
+}
+
+#datadesa .list-dusun {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#datadesa .list-dusun .dusun {
+  width: 25%;
+  padding: 10px;
+}
+
+@media (max-width: 780px) {
+  #datadesa .list-dusun .dusun {
+    width: 100%;
+  }
+}
+
+#datadesa .list-dusun .dusun .data-dusun {
+  width: 100%;
+  min-height: 200px;
+  -webkit-box-shadow: 1px 1px 1px #f1f1f1;
+          box-shadow: 1px 1px 1px #f1f1f1;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+#datadesa .list-dusun .dusun .data-dusun:hover {
+  -webkit-box-shadow: 2px 4px 4px #f1f1f1;
+          box-shadow: 2px 4px 4px #f1f1f1;
+}
+
+#datadesa .list-total-penduduk {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#datadesa .list-total-penduduk .list-item {
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 780px) {
+  #datadesa .list-total-penduduk .list-item {
+    width: 100%;
+  }
+}
+
+#datadesa .list-total-penduduk .list-item strong {
+  font-size: 32px;
+}
+
+#potensi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px 10vw;
+  min-height: 400px;
+}
+
+#potensi .title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#potensi .img {
+  width: 50%;
+  position: relative;
+}
+
+@media (max-width: 780px) {
+  #potensi .img {
+    width: 100%;
+  }
+}
+
+#potensi .img img {
+  width: 30%;
+  position: absolute;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 4px #f1f1f1;
+          box-shadow: 2px 2px 4px #f1f1f1;
+}
+
+#potensi .img .img-1 {
+  left: 5%;
+  top: 0;
+}
+
+#potensi .img .img-2 {
+  left: 40%;
+  top: 10%;
+}
+
+#potensi .img .img-3 {
+  left: 10%;
+  top: 40%;
+}
+
+#potensi .text {
+  width: 50%;
+  padding: 5% 0;
+}
+
+@media (max-width: 780px) {
+  #potensi .text {
+    width: 100%;
+  }
+}
+
+#kkn {
+  padding: 30px 10vw;
+}
+
+#kkn .title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#kkn .list-blog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#kkn .list-blog .blog-post {
+  float: left;
+  background: #f1f1f1;
+  border-radius: 15px;
+  padding: 10px;
+  width: 33%;
+  min-height: 250px;
+  margin-bottom: 10px;
+}
+
+#lokasi-desa {
+  min-height: 400px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=pandan-makmur.css.map */
