@@ -385,9 +385,19 @@ section {
   margin-bottom: 10px;
 }
 
+@media (max-width: 780px) {
+  #kkn .list-blog .blog-post {
+    width: 100%;
+  }
+}
+
 #lokasi-desa {
   min-height: 400px;
   text-align: center;
+}
+
+#lokasi-desa img {
+  width: 100%;
 }
 
 footer {

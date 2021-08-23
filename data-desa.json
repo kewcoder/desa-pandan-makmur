@@ -3,42 +3,42 @@
         {
             "dusun_id": 1,
             "nama_dusun": "Pandan Mulyo",
-            "Jumlah Penduduk": 445,
-            "Jumlah Laki Laki": 236,
-            "Jumlah Perempuan": 209,
-            "Jumlah Keluarga": 135
+            "jumlah_penduduk": 445,
+            "jumlah_laki_laki": 236,
+            "jumlah_perempuan": 209,
+            "jumlah_keluarga": 135
         },
         {
             "dusun_id": 2,
             "nama_dusun": "Panjan Sari",
-            "Jumlah Penduduk": 560,
-            "Jumlah Laki Laki": 284,
-            "Jumlah Perempuan": 276,
-            "Jumlah Keluarga": 172
+            "jumlah_penduduk": 560,
+            "jumlah_laki_laki": 284,
+            "jumlah_perempuan": 276,
+            "jumlah_keluarga": 172
         },
         {
             "dusun_id": 3,
             "nama_dusun": "Panjan Rejo",
-            "Jumlah Penduduk": 426,
-            "Jumlah Laki Laki": 221,
-            "Jumlah Perempuan": 205,
-            "Jumlah Keluarga": 138
+            "jumlah_penduduk": 426,
+            "jumlah_laki_laki": 221,
+            "jumlah_perempuan": 205,
+            "jumlah_keluarga": 138
         },
         {
             "dusun_id": 4,
             "nama_dusun": "Panjan Mukti",
-            "Jumlah Penduduk": 498,
-            "Jumlah Laki Laki": 234,
-            "Jumlah Perempuan": 264,
-            "Jumlah Keluarga": 175
+            "jumlah_penduduk": 498,
+            "jumlah_laki_laki": 234,
+            "jumlah_perempuan": 264,
+            "jumlah_keluarga": 175
         }
     ],
-    "dataseluruh": [
+    "dataseluruh": 
         {
-            "Jumlah Penduduk": 1929,
-            "Jumlah Laki-Laki": 975,
-            "Jumlah Perempuan": 954,
-            "Jumlah Keluarga": 620
+            "jumlah_penduduk": 1929,
+            "jumlah_laki_laki": 975,
+            "jumlah_perempuan": 954,
+            "jumlah_keluarga": 620
         }
-    ]
+    
 }
