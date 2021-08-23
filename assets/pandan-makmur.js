@@ -42,7 +42,9 @@ new FinisherHeader({
 axios.get('/data-desa.json')
   .then(function (response) {
     // handle success
-    console.log(response);
+    // console.log(response);
+    let dataDesa = response.data
+    console.log(dataDesa)
   })
   .catch(function (error) {
     // handle error

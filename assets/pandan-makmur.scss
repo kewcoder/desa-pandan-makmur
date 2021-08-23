@@ -20,7 +20,7 @@ section{
     width: 100%;
     height: 700px;
     @media (max-width:780px) {
-        height: 700px;
+        height: 800px;
     }
     .logo{
         float: left;
@@ -81,6 +81,7 @@ section{
             @media (max-width:780px) {
                 width: 300px;
                 height: 200px;
+                margin-top: 50px;
             }
         }
     }
@@ -193,6 +194,8 @@ section{
         position: relative;
         @media (max-width:780px) {
             width: 100%;
+            height: 200px;
+            margin-top: 50px;
         }
         img{
             width: 30%;
@@ -250,6 +253,7 @@ section{
     text-align: center;
 }
 footer{
+    padding: 30px 10vw;
     text-align: center;
     margin-bottom: 50px;
 }

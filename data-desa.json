@@ -1,3 +1,44 @@
 {
-    "nama": "Pandan Makmur"
+    "datadusun": [
+        {
+            "dusun_id": 1,
+            "nama_dusun": "Pandan Mulyo",
+            "Jumlah Penduduk": 445,
+            "Jumlah Laki Laki": 236,
+            "Jumlah Perempuan": 209,
+            "Jumlah Keluarga": 135
+        },
+        {
+            "dusun_id": 2,
+            "nama_dusun": "Panjan Sari",
+            "Jumlah Penduduk": 560,
+            "Jumlah Laki Laki": 284,
+            "Jumlah Perempuan": 276,
+            "Jumlah Keluarga": 172
+        },
+        {
+            "dusun_id": 3,
+            "nama_dusun": "Panjan Rejo",
+            "Jumlah Penduduk": 426,
+            "Jumlah Laki Laki": 221,
+            "Jumlah Perempuan": 205,
+            "Jumlah Keluarga": 138
+        },
+        {
+            "dusun_id": 4,
+            "nama_dusun": "Panjan Mukti",
+            "Jumlah Penduduk": 498,
+            "Jumlah Laki Laki": 234,
+            "Jumlah Perempuan": 264,
+            "Jumlah Keluarga": 175
+        }
+    ],
+    "dataseluruh": [
+        {
+            "Jumlah Penduduk": 1929,
+            "Jumlah Laki-Laki": 975,
+            "Jumlah Perempuan": 954,
+            "Jumlah Keluarga": 620
+        }
+    ]
 }
